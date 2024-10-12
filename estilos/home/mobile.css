@@ -5,3 +5,17 @@
     margin: 0px ;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+}
+
+    menu { /*Preciso fazer com que ao passar o mouse emcima de home, aparece a imagem home no background, e quando passar emcima do pratos-principais fique com a imagem do prato-principal e assim por diante.*/
+        width: 100vw ;
+        height: 100vh ;
+
+    }
+        a {
+            color: white;
+        }
+        
