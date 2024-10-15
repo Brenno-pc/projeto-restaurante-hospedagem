@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: '' ;
-    src: url(../../fontes/kungfoo_fighter_\ fonte\ para\ projeto/);
+    font-family: 'titulo' ;
+    src: url(../../fontes/KungfooFighterDEMO\ -\ titulo.otf);
 }
 
 * {
@@ -30,9 +30,8 @@ body {
         flex-flow: row nowrap;
         align-items: flex-end;
         justify-content: center;
-        height: 150px;
 
-        background-color: rgba(255, 255, 255, 0);
+        background-color: black ;
         color: white;
 
     }
@@ -40,8 +39,22 @@ body {
             background-color: white;
             color: black;
         }
+
         h1 {
-            font-family: ;
+            display: flex;
+            flex-direction: row nowrap;
+            justify-content: center;
+            align-items: center ;
+
+            height: 150px ;
+
+            font-family: 'titulo' ;
+            font-size: 40px;
+            font-style: italic ;
+            font-weight: lighter;
+
+            color: white;
+            background-color: rgba(22, 22, 22, 0.078);
         }
         a {
             padding: 5px ;
