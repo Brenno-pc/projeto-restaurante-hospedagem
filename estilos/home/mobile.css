@@ -23,6 +23,7 @@
 
 body {
     background-color: black;
+    
 }
 
     menu { /*Preciso fazer com que ao passar o mouse emcima de home, aparece a imagem home no background, e quando passar emcima do pratos-principais fique com a imagem do prato-principal e assim por diante.*/
@@ -32,38 +33,61 @@ body {
         align-items: center ;
         
         height: 100px;
-    }
+
+        background-color: rgb(213, 19, 19) ;
+        color: white;
+    } /*precisa alterar essas cores*/
+        menu:hover {
+            background-color: green;
+            color: blue;
+        } 
+
         a {
+            padding: 10px ;
+
             text-decoration: none;
             color: white;
+            background-color: black;
+
+            border-radius: 10px ;
+
+            font-size: 18px;
+        } /*precisa alterar essas cores*/
+            a:hover {
+                padding: 12px;
+                transition: 0.8s;
+                background-color: white;
+                color: black;
+
+                font-size: 18.8px;
+            }
+        
+        main {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center ;
+            align-items: center ;
+            
+            height: 80vh;
         }
-/*menu { 
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    justify-content: center;
+            h1 {
+                padding: 20px ;
 
-    background-color: black ;
-    color: white;
+                font-family: 'titulo' ;
+                font-size: 49px ;
+                font-weight: lighter;
+                font-style: italic;
 
-}
-    menu:hover {
-        background-color: white;
-        color: black;
-    }
+                background-color: green;
+                color: white;
 
+                border-radius: 10px ;
+
+            }
+/*
+    
     h1 {
-        display: flex;
-        flex-direction: row nowrap;
-        justify-content: center;
-        align-items: center ;
 
-        height: 150px ;
-
-        font-family: 'titulo' ;
-        font-size: 45px;
-        font-style: italic ;
-        font-weight: lighter;
 
         color: white;
         background-color: rgba(22, 22, 22, 0.078);
