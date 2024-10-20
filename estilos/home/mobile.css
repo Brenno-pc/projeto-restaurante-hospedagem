@@ -13,38 +13,38 @@
 }
 
 :root {
-    --cor1 : ;
-    --cor2 : ;
-    --cor3 : ;
-    --cor4 : ;
-    --cor5 : ;
+    --cor1 : #1A1D26 ;
+    --cor2 : #27302F ;
+    --cor3 : #C07C29 ;
+    --cor4 : #FEC677 ;
+    --cor5 : #A9BDB4 ;
 
 }
 
 body {
     height: 100vh;
     background-color: black;
-    background: url(../../imagens/);
-    background-position: right center;
+    background: url(../../imagens/home-cel-tab/img\ -\ cell\ 1.jpg);
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-
     
 }
 
     menu { /*Preciso fazer com que ao passar o mouse emcima de home, aparece a imagem home no background, e quando passar emcima do pratos-principais fique com a imagem do prato-principal e assim por diante.*/
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center ;
         
-        height: 120px;
+        height: 25vh;
 
-        background-color: rgb(213, 19, 19) ;
+        background-color: rgba(0, 0, 0, 0) ;
         color: white;
     } /*precisa alterar essas cores*/
         menu:hover {
-            background-color: green;
+            transition: 0.8s;
+            background-color:#D0892F;
             color: blue;
         } 
 
@@ -53,7 +53,7 @@ body {
 
             text-decoration: none;
             color: white;
-            background-color: black;
+            
 
             border-radius: 10px ;
 
@@ -62,7 +62,7 @@ body {
             a:hover {
                 padding: 12px;
                 transition: 0.8s;
-                background-color: white;
+                
                 color: black;
 
                 font-size: 18.8px;
@@ -71,26 +71,25 @@ body {
         main {
             display: flex;
             flex-flow: row nowrap;
-            justify-content: flex-start ;
+            justify-content: flex-end ;
             align-items: flex-start;
             
             height: 80vh;
         }
             h1 {
                 margin: 10px ;
-                padding: 20px ;
+                padding: 10px 15px ;
 
                 font-family: 'titulo' ;
                 font-size: 45px ;
                 font-weight: lighter;
                 font-style: italic;
-
-                background-color: green;
-                color: white;
-
                 border-radius: 10px ;
 
+                color: white;
+
             }
+
 /*
 
 
