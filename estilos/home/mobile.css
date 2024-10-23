@@ -1,8 +1,13 @@
 @charset "utf-8";
-
+/*Preciso fazer com que ao passar o mouse emcima de home, aparece a imagem home no background, e quando passar emcima do pratos-principais fique com a imagem do prato-principal e assim por diante.*/
 @font-face {
     font-family: 'titulo' ;
     src: url(../../fontes/KungfooFighterDEMO\ -\ titulo.otf);
+}
+
+@font-face {
+    font-family: 'tituloo' ;
+    src: url(../../fontes/Seibi_Socho/Seibi_Socho/OTF/Seibi\ Socho.otf);
 }
 
 * {
@@ -22,43 +27,38 @@
 }
 
 body {
+    width: 100vw;
     height: 100vh;
     background-color: black;
-    background: url(../../imagens/home-cel-tab/img\ -\ cell\ 1.jpg);
+    /*background: url(../../imagens/home-cel-tab/img\ -\ cell\ 1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;*/
 }
 
-    menu { /*Preciso fazer com que ao passar o mouse emcima de home, aparece a imagem home no background, e quando passar emcima do pratos-principais fique com a imagem do prato-principal e assim por diante.*/
+    menu { 
         display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-around;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
         align-items: center ;
-        
-        height: 25vh;
-
+        height: 22vh; /*sujeito a mudanças*/
         background-color: rgba(0, 0, 0, 0) ;
         color: white;
-    } /*precisa alterar essas cores*/
+    } 
         menu:hover {
             transition: 0.8s;
             background-color:#D0892F;
-            color: blue;
-        } 
-
+            color: gray ;
+        }
+        
+/*  
         a {
             padding: 10px ;
-
             text-decoration: none;
-            color: white;
-            
-
+            color: white;   
             border-radius: 10px ;
-
             font-size: 18px;
-        } /*precisa alterar essas cores*/
+        } /precisa alterar essas cores/
             a:hover {
                 padding: 12px;
                 transition: 0.8s;
@@ -90,7 +90,7 @@ body {
 
             }
 
-/*
+
 
 
         a.menu-link-home:hover ~ menu {
