@@ -44,23 +44,23 @@ body {
         height: 22vh; /*sujeito a mudanças*/
         background-color: rgba(0, 0, 0, 0) ;
         color: white;
-    } 
+    }  
         menu:hover {
             transition: 0.8s;
             background-color:#D0892F;
             color: gray ;
         }
         
-/*  
+
         a {
             padding: 10px ;
             text-decoration: none;
             color: white;   
             border-radius: 10px ;
             font-size: 18px;
-        } /precisa alterar essas cores/
+        }
             a:hover {
-                padding: 12px;
+                padding: 13px;
                 transition: 0.8s;
                 
                 color: black;
@@ -70,12 +70,14 @@ body {
         
         main {
             display: flex;
-            flex-flow: row nowrap;
-            justify-content: flex-end ;
-            align-items: flex-start;
+            flex-flow: column nowrap;
+            justify-content: flex-start ;
+            align-items: flex-start ;
             
-            height: 80vh;
+            height: 430px;
+            background-color: white  ;
         }
+            /* 
             h1 {
                 margin: 10px ;
                 padding: 10px 15px ;
