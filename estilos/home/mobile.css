@@ -30,13 +30,13 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: black;
-    /*background: url(../../imagens/home-cel-tab/img\ -\ cell\ 1.jpg);
-    background-position: top center;
+    background: url(../../imagens/home-cel-tab/img\ -\ home\ -\ cel\ -\ tab.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover ;
 }
 
-    menu { 
+    menu { /*fazer estilo menu hamburguer*/
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
@@ -45,13 +45,6 @@ body {
         background-color: rgba(0, 0, 0, 0) ;
         color: white;
     }  
-        menu:hover {
-            transition: 0.8s;
-            background-color:#D0892F;
-            color: gray ;
-        }
-        
-
         a {
             padding: 10px ;
             text-decoration: none;
@@ -62,49 +55,28 @@ body {
             a:hover {
                 padding: 13px;
                 transition: 0.8s;
-                
                 color: black;
-
                 font-size: 18.8px;
             }
         
+
         main {
             display: flex;
-            flex-flow: column nowrap;
-            justify-content: flex-start ;
+            flex-flow: row nowrap;
+            justify-content: flex-end ;
             align-items: flex-start ;
-            
-            height: 430px;
-            background-color: white  ;
-        }
-            /* 
+
+        } 
             h1 {
                 margin: 10px ;
-                padding: 10px 15px ;
-
+                padding: 10px ;
+                writing-mode: vertical-rl;
                 font-family: 'titulo' ;
                 font-size: 45px ;
                 font-weight: lighter;
                 font-style: italic;
                 border-radius: 10px ;
-
-                color: white;
-
+                color: white ;
             }
 
 
-
-
-        a.menu-link-home:hover ~ menu {
-            background: url();
-        }
-        a.menu-link-entrada:hover ~ menu {
-            background: url();
-        }
-        a.menu-link-principais:hover ~ menu {
-            background: url();
-        }
-        a.menu-link-sobremesas:hover ~ menu {
-            background: url();
-        } 
-        */
