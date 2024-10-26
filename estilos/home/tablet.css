@@ -18,18 +18,11 @@
 }
 
 :root {
-
     --cor1 : #1A1D26 ;
     --cor2 : #27302F ;
     --cor3 : #C07C29 ;
     --cor4 : #FEC677 ;
     --cor5 : #A9BDB4 ;
-
-    --cor6 : #F2C48D;
-    --cor7 : #D9A362 ;
-    --cor8 : #BF6B21 ;
-    --cor9 : #BF5315 ;
-    --cor10 : #8C2F0D ;
 
 }
 
@@ -43,35 +36,29 @@ body {
     background-size: cover ;
 }
 
-
-/*fazer estilo menu hamburguer*/
-menu {
-    
-    padding: 10px ;
-    margin: 20px auto ;
-    height: 200px;
-    width: 250px;
-
-    text-align: center ;
-    background: var(--cor5) ;
-    border: 1px solid black;
-    border-radius: 30px 1px 30px 30px   ;
-
-}
-    a {
-        display: block;
-        padding: 5px ;
-        margin: 20px ;
-        
-        text-decoration: none;
-        text-align: center ;
-    }
-        a:hover {
-            padding: 7px;
-            font-size: 17px;
-            transition: 0.8s;
-            color: black;     
+    menu { /*fazer estilo menu hamburguer*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center ;
+        height: 22vh; /*sujeito a mudanças*/
+        background-color: rgba(0, 0, 0, 0) ;
+        color: white;
+    }  
+        a {
+            padding: 10px ;
+            text-decoration: none;
+            color: white;   
+            border-radius: 10px ;
+            font-size: 18px;
         }
+            a:hover {
+                padding: 13px;
+                transition: 0.8s;
+                color: black;
+                font-size: 18.8px;
+            }
+        
 
         main {
             display: flex;
@@ -90,7 +77,6 @@ menu {
                 font-style: italic;
                 border-radius: 10px ;
                 color: white ;
-                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
             }
-
 
