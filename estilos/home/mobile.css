@@ -3,11 +3,6 @@
 
 @font-face {
     font-family: 'titulo' ;
-    src: url(../../fontes/KungfooFighterDEMO\ -\ titulo.otf);
-}
-
-@font-face {
-    font-family: 'tituloo' ;
     src: url(../../fontes/Seibi_Socho/Seibi_Socho/OTF/Seibi\ Socho.otf);
 }
 
@@ -45,6 +40,7 @@ body {
     background-size: cover ;
 }
 
+
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -52,54 +48,54 @@ header {
     height: 220px ;
     margin: 0px 10px;
 }
-/*fazer estilo menu hamburguer*/
-menu {
-    width: 100%;
-    padding: 10px ;
-    height: 205px;  
+    /*fazer estilo menu hamburguer*/
+    menu {
+        width: 100%;
+        padding: 10px ;
+        height: 205px;  
 
-    text-align: center ;
-    background: linear-gradient(to bottom, #8c2f0da0, #f2c58d8d );
-    border: 1px solid black;
-    border-radius: 10px ;
-}
-    a {
-        display: block;
-        padding: 8px ;
-        margin: 15px ;
-        /*alterar fonte*/
-        text-decoration: none;
         text-align: center ;
-        border: 1px solid black ;
+        background: linear-gradient(to bottom, #8c2f0da0, #f2c58d8d );
+        border: 1px solid black;
         border-radius: 10px ;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.231); 
     }
-        a:hover {
-            padding: 7px;
-            font-size: 17px;
-            transition: 0.8s;
-            color: black;     
+        a {
+            display: block;
+            padding: 8px ;
+            margin: 15px ;
+            /*alterar fonte*/
+            text-decoration: none;
+            text-align: center ;
+            border: 1px solid black ;
+            border-radius: 10px ;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.231); 
         }
-
-        main {
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: flex-end ;
-            align-items: flex-start ;
-
-        } 
-            h1 {
-                margin: 0px 10px 10px 10px  ;
-                padding: 10px ;
-                writing-mode: vertical-rl;
-                font-family: 'tituloo' ;
-                font-size: 45px ;
-                font-weight: lighter;
-                font-style: italic;
-                border-radius: 10px ;
-                color: rgb(255, 255, 255) ;
-                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
+            a:hover {
+                padding: 7px;
+                font-size: 17px;
+                transition: 0.8s;
+                color: black;     
             }
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end ;
+    align-items: flex-start ;
+
+} 
+    h1 {
+        margin: 0px 10px 10px 10px  ;
+        padding: 10px ;
+        writing-mode: vertical-rl;
+        font-family: 'titulo' ;
+        font-size: 45px ;
+        font-weight: lighter;
+        font-style: italic;
+        border-radius: 10px ;
+        color: rgb(255, 255, 255) ;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
+    }
 
 
