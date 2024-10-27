@@ -34,7 +34,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: black;
-    background: url(../../imagens/home-cel-tab/img\ -\ home\ -\ cel\ -\ tab.jpg);
+    background: url(../../imagens/home-all/img\ -\ home\ -\ cel\ -\ tab.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -90,7 +90,7 @@ main {
         padding: 10px ;
         writing-mode: vertical-rl;
         font-family: 'titulo' ;
-        font-size: 45px ;
+        font-size: 48px ;
         font-weight: lighter;
         font-style: italic;
         border-radius: 10px ;

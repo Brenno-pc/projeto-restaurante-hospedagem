@@ -45,14 +45,14 @@ header {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    height: 220px ;
+    height: 235px ;
     margin: 0px 10px;
 }
     /*fazer estilo menu hamburguer*/
     menu {
         width: 100%;
         padding: 10px ;
-        height: 207px;  
+        height: 222px;  
 
         text-align: center ;
         background: linear-gradient(to bottom, #8c2f0d80, #f2c58d8d );
@@ -61,9 +61,9 @@ header {
     }
         a {
             display: block;
-            width: 600px;
+            width: 650px;
             padding: 13px ;
-            margin: 10px auto ;
+            margin: 13px auto ;
             /*alterar fonte*/
             text-decoration: none;
             text-align: center ;
@@ -91,12 +91,13 @@ main {
         padding: 10px ;
         writing-mode: vertical-rl;
         font-family: 'titulo' ;
-        font-size: 55px ;
+        font-size: 60px ;
         font-weight: lighter;
         font-style: italic;
         border-radius: 10px ;
         color: rgb(255, 255, 255) ;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
     }
+
 
 
