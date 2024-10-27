@@ -1,5 +1,6 @@
 @charset "utf-8";
-/*Preciso fazer com que ao passar o mouse emcima de home, aparece a imagem home no background, e quando passar emcima do pratos-principais fique com a imagem do prato-principal e assim por diante.*/
+
+
 @font-face {
     font-family: 'titulo' ;
     src: url(../../fontes/KungfooFighterDEMO\ -\ titulo.otf);
@@ -21,19 +22,20 @@
 
     --cor1 : #1A1D26 ;
     --cor2 : #27302F ;
-    --cor3 : #C07C29 ;
-    --cor4 : #FEC677 ;
-    --cor5 : #A9BDB4 ;
+    --cor3 : #A9BDB4 ;
+    --cor4 : #F2C48D;
+    --cor5 : #C07C29 ;
+    --cor6 : #8C2F0D ;
 
-    --cor6 : #F2C48D;
+/*    
     --cor7 : #D9A362 ;
     --cor8 : #BF6B21 ;
     --cor9 : #BF5315 ;
-    --cor10 : #8C2F0D ;
-
+*/
 }
 
 body {
+    display: block ;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -43,28 +45,35 @@ body {
     background-size: cover ;
 }
 
-
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 220px ;
+    margin: 0px 10px;
+}
 /*fazer estilo menu hamburguer*/
 menu {
-    
+    width: 100%;
     padding: 10px ;
-    margin: 20px auto ;
-    height: 200px;
-    width: 250px;
+    height: 205px;  
 
     text-align: center ;
-    background: var(--cor5) ;
+    background: linear-gradient(to bottom, #8c2f0da0, #f2c58d8d );
     border: 1px solid black;
-    border-radius: 30px 1px 30px 30px   ;
-
+    border-radius: 10px ;
 }
     a {
         display: block;
-        padding: 5px ;
-        margin: 20px ;
-        
+        padding: 8px ;
+        margin: 15px ;
+        /*alterar fonte*/
         text-decoration: none;
         text-align: center ;
+        border: 1px solid black ;
+        border-radius: 10px ;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.231); 
     }
         a:hover {
             padding: 7px;
@@ -81,15 +90,15 @@ menu {
 
         } 
             h1 {
-                margin: 10px ;
+                margin: 0px 10px 10px 10px  ;
                 padding: 10px ;
                 writing-mode: vertical-rl;
-                font-family: 'titulo' ;
+                font-family: 'tituloo' ;
                 font-size: 45px ;
                 font-weight: lighter;
                 font-style: italic;
                 border-radius: 10px ;
-                color: white ;
+                color: rgb(255, 255, 255) ;
                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
             }
 
