@@ -44,11 +44,48 @@ body {
 header {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0px ;
+}
+    img#IconeMenu {
+        width:55px;
+        margin: 86px 15px 43px 10px ;
+        filter: drop-shadow(5px 4px 2.5px rgba(0, 0, 0, 0.446));
+    }
+
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end ;
+    align-items: flex-start ;
+
+} 
+    h1 {
+        margin: 0px 10px 10px 10px  ;
+        padding: 10px ;
+        writing-mode: vertical-rl;
+        font-family: 'titulo' ;
+        font-size: 52px ;
+        font-weight: lighter;
+        font-style: italic;
+        border-radius: 10px ;
+        color: #fffffff6 ;
+        text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.639);
+    }
+
+
+
+    /*COLOCAR O MENU DENTRO DOS 3 RISQUINHOS - essa é a parte css*/
+    /*
+    header {
+    display: flex;
+    flex-flow: row nowrap;
     align-items: center;
     height: 220px ;
     margin: 0px 10px;
 }
-    /*fazer estilo menu hamburguer*/
     menu {
         width: 100%;
         padding: 10px ;
@@ -63,7 +100,7 @@ header {
             display: block;
             padding: 8px ;
             margin: 15px ;
-            /*alterar fonte*/
+            
             text-decoration: none;
             text-align: center ;
             border: 1px solid black ;
@@ -76,26 +113,6 @@ header {
                 font-size: 17px;
                 transition: 0.8s;
                 color: black;     
-            }
-
-main {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end ;
-    align-items: flex-start ;
-
-} 
-    h1 {
-        margin: 0px 10px 10px 10px  ;
-        padding: 10px ;
-        writing-mode: vertical-rl;
-        font-family: 'titulo' ;
-        font-size: 48px ;
-        font-weight: lighter;
-        font-style: italic;
-        border-radius: 10px ;
-        color: rgb(255, 255, 255) ;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
-    }
-
+            }*/
+            /*alterar fonte do A*/
 

@@ -44,40 +44,16 @@ body {
 header {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: flex-end;
     align-items: center;
-    height: 220px ;
-    margin: 0px 10px;
+    margin:0px ;
 }
-    /*fazer estilo menu hamburguer*/
-    menu {
-        width: 100%;
-        padding: 10px ;
-        height: 207px;  
-
-        text-align: center ;
-        background: linear-gradient(to bottom, #8c2f0d80, #f2c58d8d );
-        border: 1px solid black;
-        border-radius: 10px ;
+    img#IconeMenu {
+        width:55px;
+        margin: 90px 15px 43px 10px ;
+        filter: drop-shadow(5px 4px 2.5px rgba(0, 0, 0, 0.446));
     }
-        a {
-            display: block;
-            width: 600px;
-            padding: 13px ;
-            margin: 10px auto ;
-            /*alterar fonte*/
-            text-decoration: none;
-            text-align: center ;
-            border: 1px solid black ;
-            border-radius: 10px ;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.231); 
-        }
-            a:hover {
-                padding: 7px;
-                font-size: 17px;
-                transition: 0.8s;
-                color: black;     
-            }
+
 
 main {
     display: flex;
@@ -91,12 +67,53 @@ main {
         padding: 10px ;
         writing-mode: vertical-rl;
         font-family: 'titulo' ;
-        font-size: 55px ;
+        font-size: 57px ; /*alterei o tamanho*/
         font-weight: lighter;
         font-style: italic;
         border-radius: 10px ;
-        color: rgb(255, 255, 255) ;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
+        color: #fffffff6 ;
+        text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.639);
     }
+
+
+
+    /*COLOCAR O MENU DENTRO DOS 3 RISQUINHOS - essa é a parte css*/
+    /*
+    header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 220px ;
+    margin: 0px 10px;
+}
+    menu {
+        width: 100%;
+        padding: 10px ;
+        height: 205px;  
+
+        text-align: center ;
+        background: linear-gradient(to bottom, #8c2f0da0, #f2c58d8d );
+        border: 1px solid black;
+        border-radius: 10px ;
+    }
+        a {
+            display: block;
+            padding: 8px ;
+            margin: 15px ;
+            
+            text-decoration: none;
+            text-align: center ;
+            border: 1px solid black ;
+            border-radius: 10px ;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.231); 
+        }
+            a:hover {
+                padding: 7px;
+                font-size: 17px;
+                transition: 0.8s;
+                color: black;     
+            }*/
+            /*alterar fonte do A*/
 
 

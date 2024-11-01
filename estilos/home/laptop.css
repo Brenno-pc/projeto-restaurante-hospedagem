@@ -44,27 +44,63 @@ body {
 header {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: flex-end;
     align-items: center;
-    height: 235px ;
+    margin:0px ;
+}
+    img#IconeMenu {
+        width: 67px ;
+        margin: 90px 15px 43px 10px ;
+        filter: drop-shadow(5px 4px 2.5px rgba(0, 0, 0, 0.446));
+    }
+
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end ;
+    align-items: flex-start ;
+
+} 
+    h1 {
+        margin: 0px 12px 10px 10px  ;
+        padding: 10px ;
+        writing-mode: vertical-rl;
+        font-family: 'titulo' ;
+        font-size: 64px ; /*alterei o tamanho*/
+        font-weight: lighter;
+        font-style: italic;
+        border-radius: 10px ;
+        color: #fffffff6 ;
+        text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.639);
+    }
+
+
+
+    /*COLOCAR O MENU DENTRO DOS 3 RISQUINHOS - essa é a parte css*/
+    /*
+    header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 220px ;
     margin: 0px 10px;
 }
-    /*fazer estilo menu hamburguer*/
     menu {
         width: 100%;
         padding: 10px ;
-        height: 222px;  
+        height: 205px;  
 
         text-align: center ;
-        background: linear-gradient(to bottom, #8c2f0d80, #f2c58d8d );
+        background: linear-gradient(to bottom, #8c2f0da0, #f2c58d8d );
         border: 1px solid black;
         border-radius: 10px ;
     }
         a {
             display: block;
-            width: 650px;
-            padding: 13px ;
-            margin: 13px auto ;
-            /*alterar fonte*/
+            padding: 8px ;
+            margin: 15px ;
+            
             text-decoration: none;
             text-align: center ;
             border: 1px solid black ;
@@ -77,27 +113,10 @@ header {
                 font-size: 17px;
                 transition: 0.8s;
                 color: black;     
-            }
+            }*/
+            /*alterar fonte do A*/
 
-main {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end ;
-    align-items: flex-start ;
 
-} 
-    h1 {
-        margin: 0px 10px 10px 10px  ;
-        padding: 10px ;
-        writing-mode: vertical-rl;
-        font-family: 'titulo' ;
-        font-size: 60px ;
-        font-weight: lighter;
-        font-style: italic;
-        border-radius: 10px ;
-        color: rgb(255, 255, 255) ;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
-    }
 
 
 
