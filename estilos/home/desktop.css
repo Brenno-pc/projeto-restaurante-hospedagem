@@ -1,10 +1,23 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 
 @font-face {
-    font-family: 'titulo' ;
-    src: url(../../fontes/Seibi_Socho/Seibi_Socho/OTF/Seibi\ Socho.otf);
+    font-family: 'Fonte1' ;
+    src: url(../../fontes/KungfooFighterDEMO\ -\ titulo.otf) format(OpenType);
 }
+@font-face {
+    font-family: 'Fonte2' ;
+    src: url(../../fontes/seibi-shiba/OTF/Seibi\ Shiba\ Bold.otf) format(OpenType);
+}
+@font-face {
+    font-family: 'Fonte3' ;
+    src: url(../../fontes/seibi-shirogane/OTF/Seibi\ Shirogane.otf) format(OpenType);
+}
+@font-face {
+    font-family: 'Fonte4' ;
+    src: url(../../fontes/Seibi_Socho/Seibi_Socho/OTF/Seibi\ Socho.otf) format(OpenType);
+}
+
 
 * {
     padding: 0px ;
@@ -15,105 +28,8 @@
 
 :root {
 
-    --cor1 : #1A1D26 ;
-    --cor2 : #27302F ;
-    --cor3 : #A9BDB4 ;
-    --cor4 : #F2C48D;
-    --cor5 : #C07C29 ;
-    --cor6 : #8C2F0D ;
-
-/*    
-    --cor7 : #D9A362 ;
-    --cor8 : #BF6B21 ;
-    --cor9 : #BF5315 ;
-*/
 }
 
 body {
-    display: block ;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    background: url(../../imagens/home-all/img\ -\ home\ -\ cel\ -\ tab.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover ;
+    background-color: black ;
 }
-
-
-header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    margin:0px ;
-}
-    img#IconeMenu {
-        width: 71px ;
-        margin: 90px 15px 43px 10px ;
-        filter: drop-shadow(5px 4px 2.5px rgba(0, 0, 0, 0.446));
-    }
-
-
-main {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end ;
-    align-items: flex-start ;
-
-} 
-    h1 {
-        margin: 0px 12px 10px 10px  ;
-        padding: 10px ;
-        writing-mode: vertical-rl;
-        font-family: 'titulo' ;
-        font-size: 70px ; /*alterei o tamanho*/
-        font-weight: lighter;
-        font-style: italic;
-        border-radius: 10px ;
-        color: #fffffff6 ;
-        text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.639);
-    }
-
-
-
-    /*COLOCAR O MENU DENTRO DOS 3 RISQUINHOS - essa é a parte css*/
-    /*
-    header {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    height: 220px ;
-    margin: 0px 10px;
-}
-    menu {
-        width: 100%;
-        padding: 10px ;
-        height: 205px;  
-
-        text-align: center ;
-        background: linear-gradient(to bottom, #8c2f0da0, #f2c58d8d );
-        border: 1px solid black;
-        border-radius: 10px ;
-    }
-        a {
-            display: block;
-            padding: 8px ;
-            margin: 15px ;
-            
-            text-decoration: none;
-            text-align: center ;
-            border: 1px solid black ;
-            border-radius: 10px ;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.231); 
-        }
-            a:hover {
-                padding: 7px;
-                font-size: 17px;
-                transition: 0.8s;
-                color: black;     
-            }*/
-            /*alterar fonte do A*/
-
-
