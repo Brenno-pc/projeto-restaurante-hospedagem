@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/*refazer no estilo mais luxuoso */
 
 @font-face {
     font-family: 'titulo' ;
@@ -34,7 +34,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: black;
-    background: url(../../imagens/home-all/img\ -\ home\ -\ cel\ -\ tab.jpg);
+    background: url(../../imagens/home-all/fundo-alternativo-2.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -68,7 +68,7 @@ main {
         writing-mode: vertical-rl;
         font-family: 'titulo' ;
         font-size: 52px ;
-        font-weight: lighter;
+        font-weight: lighter ;
         font-style: italic;
         border-radius: 10px ;
         color: #fffffff6 ;
@@ -77,7 +77,6 @@ main {
 
 
 
-    /*COLOCAR O MENU DENTRO DOS 3 RISQUINHOS - essa é a parte css*/
     /*
     header {
     display: flex;
@@ -114,5 +113,3 @@ main {
                 transition: 0.8s;
                 color: black;     
             }*/
-            /*alterar fonte do A*/
-
