@@ -56,17 +56,76 @@ body {
         justify-content: center ;
         align-items: center ;
         height: 68vh ;
-        background-color: rgba(0, 0, 0, 0.269) ;
+        background-color: rgba(0, 0, 0, 0.159) ;
     }
         section {
-            
-            margin: 10px auto ;
+            display: block ;
+            width: 200px ;
+            text-align: center ;
             background-color: rgba(0, 0, 0, 0) ;
         }
             img {
-                width: 180px ;
-                margin: 5px ;
+                width: 175px ;
             }
+            form {
+                width: 200px ;
+                height: 230px;
+            }
+                #iEmail_Tel {
+                    width: 100% ;
+                    margin: 3px 0px ;
+                    padding: 12px ;
+                    text-align: center ;
+                    font-size: 13px ;
+                    background-color: black ;
+                    color: white ;
+                    border-radius: 12px;
+                }
+                #iSenha {
+                    width: 100% ;
+                    margin: 3px 0px ;
+                    padding: 12px ;
+                    text-align: center ;
+                    font-size: 13px ;
+                    background-color: black ;
+                    color: white ;
+                    border-radius: 12px;
+                }
+                #iEntrar {
+                    width: 100% ;
+                    margin: 3px 0px ;
+                    padding: 12px ;
+                    text-align: center ;
+                    font-size: 13px ;
+                    background-color: black ;
+                    color: white ;
+                    border-radius: 12px;
+                }
+                    #iEntrar:hover {
+                        width: 70% ;
+                        padding: 8px ;
+                        transition: 0.8s ;
+                        font-size: 11px ;
+                    }
+
+                a#EsqueceuSenha {
+                    display: block ;
+                    margin-top: 2px ;
+                    font-size: 13px ;
+                    text-decoration: none ;
+                    color: black ;
+
+                }
+                a#ContinuarSemLogin {
+                    display: block ;
+                    margin-top: 15px ;
+                    font-size: 14.5px  ;
+                    color: black ;
+                }
+                    #ContinuarSemLogin:hover {
+                        color: rgb(44, 44, 205) ;
+                        text-decoration: none ;
+                    }
 
 
 

@@ -16,15 +16,15 @@
     <main>
         <section>
             <img src="icones/icone de pessoa/icone-pessoa 2.png" alt="Icone de uma pessoa">
-            <form method="post">
+            <form method="post" autocomplete="off">
                 
                 <input type="text" name="Email_Tel" id="iEmail_Tel" placeholder="Email ou Telefone" required> <br>
 
-                <input type="password" name="Password" id="iPassword" placeholder="Senha" required minlength="5" maxlength="8"> <br>
+                <input type="password" name="Senha" id="iSenha" placeholder="Senha" required minlength="5" maxlength="8"> <br>
 
-                <input type="submit" value="Entrar" id="iEntrar"> <br>
-                <a href="#">Esqueci a senha</a>  <br>
-                <a href="htmls/home/home.html">Continuar sem login</a>
+                <input type="submit" value="Entrar" id="iEntrar">
+                <a href="#" id="EsqueceuSenha">Esqueci a senha</a> 
+                <a href="htmls/home/home.html" id="ContinuarSemLogin">Continuar sem login</a>
             </form>
         </section>
     </main>
