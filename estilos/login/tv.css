@@ -37,7 +37,7 @@ body {
         flex-flow: row nowrap ;
         justify-content: flex-end ;
         align-items: center ;
-        height: 13vh ; /*70px*/
+        height: 13vh ; 
         background-color: white ;
     }
         header h1 {
@@ -45,7 +45,7 @@ body {
             padding: 5px ;
             margin: 5px ;
             font-family: 'Fonte4' ;
-            font-size: 32px ;
+            font-size: 47px ; /*+8px*/
             font-style: italic ;
             font-weight: 600 ;
         }
@@ -60,23 +60,23 @@ body {
     }
         section {
             display: block ;
-            width: 200px ;
+            width: 340px ; /* +15px*/
             text-align: center ;
             background-color: rgba(0, 0, 0, 0) ;
         }
-            img {
-                width: 175px ;
+            img { 
+                width: 265px ;  /* +15px*/
             }
             form {
-                width: 200px ;
-                height: 230px;
+                width: 330px ; /* +15px*/
+                height: 277px;
             }
                 #iEmail_Tel {
                     width: 100% ;
                     margin: 3px 0px ;
-                    padding: 12px ;
+                    padding: 17px ; /*+1.5px*/
                     text-align: center ;
-                    font-size: 13px ;
+                    font-size: 18px ; /*+2px*/
                     background-color: black ;
                     color: white ;
                     border-radius: 12px;
@@ -84,9 +84,9 @@ body {
                 #iSenha {
                     width: 100% ;
                     margin: 3px 0px ;
-                    padding: 12px ;
+                    padding: 17px ; /*+1.5px*/
                     text-align: center ;
-                    font-size: 13px ;
+                    font-size: 18px ; /*+2px*/
                     background-color: black ;
                     color: white ;
                     border-radius: 12px;
@@ -94,31 +94,31 @@ body {
                 #iEntrar {
                     width: 100% ;
                     margin: 3px 0px ;
-                    padding: 12px ;
+                    padding: 17px ; /*+1.5px*/
                     text-align: center ;
-                    font-size: 13px ;
+                    font-size: 18px ; /*+2px*/
                     background-color: black ;
                     color: white ;
                     border-radius: 12px;
                 }
                     #iEntrar:hover {
-                        width: 70% ;
-                        padding: 8px ;
+                        width: 72% ;
+                        padding: 12px ; /*+2px*/
                         transition: 0.8s ;
-                        font-size: 11px ;
+                        font-size: 13px ;
                     }
 
                 a#EsqueceuSenha {
                     display: block ;
                     margin-top: 2px ;
-                    font-size: 13px ;
+                    font-size: 14.5px ;
                     text-decoration: none ;
                     color: black ;
                 }
                 a#ContinuarSemLogin {
                     display: block ;
-                    margin-top: 16px ;
-                    font-size: 14.5px  ;
+                    margin-top: 19px ; 
+                    font-size: 16px ;
                     color: black ;
                 }
                     #ContinuarSemLogin:hover {
@@ -126,11 +126,9 @@ body {
                         text-decoration: none ;
                     }
 
-
-
     footer {
         background-color: white ;
-        height: 15vh ; /*180px*/
+        height: 15vh ; 
     }
         div#conteiner {
             display: flex ;
@@ -142,5 +140,5 @@ body {
                 padding: 12px 10px  ;
                 writing-mode: vertical-lr ;
                 font-family: 'Fonte4';
-                font-size: 3vh ;
+                font-size: 4vh ; 
             }

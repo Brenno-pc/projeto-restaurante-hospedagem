@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="estilos/login/mobile.css" media="screen and (max-width: 640px )">
+    <link rel="stylesheet" href="estilos/login/mobile.css" media="screen and (max-width: 640px)">
+    <link rel="stylesheet" href="estilos/login/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="estilos/login/laptop.css" media="screen and (min-width: 1025px) and (max-width: 1280px)">
+    <link rel="stylesheet" href="estilos/login/desktop.css" media="screen and (min-width: 1281px) and (max-width: 1920px)">
+    <link rel="stylesheet" href="estilos/login/tv.css" media="screen and (min-width: 1921px)">
 
     <title>Login</title>
 </head>
@@ -17,10 +21,9 @@
         <section>
             <img src="icones/icone de pessoa/icone-pessoa 2.png" alt="Icone de uma pessoa">
             <form action="" method="post" autocomplete="off">
-                
                 <input type="text" name="Email_Tel" id="iEmail_Tel" placeholder="Email ou Telefone" required> <br>
 
-                <input type="password" name="Senha" id="iSenha" placeholder="Senha" required minlength="5" maxlength="8"> <br>
+                <input type="password" name="Senha" id="iSenha" placeholder="Senha" required minlength="5" maxlength="12"> <br>
 
                 <input type="submit" value="Entrar" id="iEntrar">
                 <a href="#" id="EsqueceuSenha">Esqueci a senha</a> 
@@ -34,5 +37,6 @@
             <h1>禅ビート</h1>
         </div>
     </footer>
+    <script src="javascript/botao_entrar.js"></script>
 </body>
 </html>
