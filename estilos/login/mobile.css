@@ -55,7 +55,7 @@ body {
         flex-flow: row nowrap ;
         justify-content: center ;
         align-items: center ;
-        height: 66vh ;
+        height: 65vh ;
         background-color: rgba(0, 0, 0, 0.159) ;
     }
         section {
@@ -130,7 +130,7 @@ body {
 
     footer {
         background-color: white ;
-        height: 16vh ; /*180px*/
+        height: 15vh ; /*180px*/
     }
         div#conteiner {
             display: flex ;
@@ -142,5 +142,5 @@ body {
                 padding: 12px 10px  ;
                 writing-mode: vertical-lr ;
                 font-family: 'Fonte4';
-                font-size: 3.5vh ;
+                font-size: 3vh ;
             }
