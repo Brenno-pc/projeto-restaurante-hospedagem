@@ -45,7 +45,7 @@ body {
             padding: 5px ;
             margin: 5px ;
             font-family: 'Fonte4' ;
-            font-size: 47px ; /*+8px*/
+            font-size: 47px ; 
             font-style: italic ;
             font-weight: 600 ;
         }
@@ -60,23 +60,23 @@ body {
     }
         section {
             display: block ;
-            width: 340px ; /* +15px*/
+            width: 340px ; 
             text-align: center ;
             background-color: rgba(0, 0, 0, 0) ;
         }
             img { 
-                width: 265px ;  /* +15px*/
+                width: 265px ;  
             }
             form {
-                width: 330px ; /* +15px*/
+                width: 330px ;
                 height: 277px;
             }
                 #iEmail_Tel {
                     width: 100% ;
                     margin: 3px 0px ;
-                    padding: 17px ; /*+1.5px*/
+                    padding: 17px ; 
                     text-align: center ;
-                    font-size: 18px ; /*+2px*/
+                    font-size: 18px ;
                     background-color: black ;
                     color: white ;
                     border-radius: 12px;
@@ -84,9 +84,9 @@ body {
                 #iSenha {
                     width: 100% ;
                     margin: 3px 0px ;
-                    padding: 17px ; /*+1.5px*/
+                    padding: 17px ;
                     text-align: center ;
-                    font-size: 18px ; /*+2px*/
+                    font-size: 18px ; 
                     background-color: black ;
                     color: white ;
                     border-radius: 12px;
@@ -94,16 +94,16 @@ body {
                 #iEntrar {
                     width: 100% ;
                     margin: 3px 0px ;
-                    padding: 17px ; /*+1.5px*/
+                    padding: 17px ; 
                     text-align: center ;
-                    font-size: 18px ; /*+2px*/
+                    font-size: 18px ; 
                     background-color: black ;
                     color: white ;
                     border-radius: 12px;
                 }
                     #iEntrar:hover {
                         width: 72% ;
-                        padding: 12px ; /*+2px*/
+                        padding: 12px ;
                         transition: 0.8s ;
                         font-size: 13px ;
                     }
