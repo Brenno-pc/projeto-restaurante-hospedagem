@@ -55,11 +55,11 @@ body {
         flex-flow: row nowrap ;
         justify-content: center ;
         align-items: center ;
-        height: 65vh ;
+        height: 65vh ; /*dar uma arrumada pq tá mttt grande*/
         background-color: rgb(255, 255, 255) ;
     }
         section {
-            display: block ;
+            display: block ; /*está vazando do main*/
             width: 200px ;
             text-align: center ;
             background-color: rgba(0, 0, 0, 0) ;
@@ -130,7 +130,7 @@ body {
 
     footer {
         background-color: white ;
-        height: 15vh ; /*180px*/
+        height: 15vh ; /*diminuir, pq está muito bugado*/
     }
         div#conteiner {
             display: flex ;
@@ -142,5 +142,5 @@ body {
                 padding: 12px 10px  ;
                 writing-mode: vertical-lr ;
                 font-family: 'Fonte4';
-                font-size: 3vh ;
+                font-size: 3vh ; /*deixar em px, para não bugar */
             }
