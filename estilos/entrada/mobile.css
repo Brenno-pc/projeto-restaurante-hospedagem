@@ -30,3 +30,75 @@
 body {
     background-color: rgb(108, 108, 108) ;
 }
+
+    footer {
+        display: block ;
+        position: fixed ;
+        bottom: 0px ;
+        width: 100vw ;
+        height: 250px ; /*height: 110px ;*/
+    }
+
+
+
+        section#Icone_Login {
+            display: inline-block ;
+            position: fixed ;
+            bottom: 0px ;
+            left: 0px ;
+        }
+            img#Icone_Login_Clicavel {
+                display: inline-block ;
+                position: fixed ;
+                bottom: 0px ;
+                left: 0px ;
+                width: 62px ;
+                margin: 5px ;
+            }
+
+        section#Menu {
+            display: flex ;
+            flex-flow: column nowrap ;
+            justify-content: flex-end ;
+            align-items: flex-end ;
+            background-color: rgb(255, 132, 0) ;
+            height: 180px ;
+        }
+            nav {
+                width: 170px ;
+                height: 180px ;
+                text-align: center ;
+                background-color: antiquewhite;
+            }
+                a {
+                    display: block ;
+
+                    margin: 10px ;
+                    padding: 10px ;
+                    font-family: 'Fonte5'; /*Para letras, a melhor fonte é a "FONTE5"*/
+                    font-size: 20px ;
+                    text-decoration: none ;
+                    color: black ;
+                    background-color: aqua ;
+                    border: 2px solid black ;
+                    border-radius: 10px ;
+                }
+        
+        section#Icone_Menu {
+            display: inline-block ;
+            position: fixed ;
+            bottom: 0px ;
+            right: 0px ;
+        }
+            img#Icone_Menu_Clicavel {
+                display: inline-block ;
+                position: fixed ;
+                bottom: 0px ;
+                right: 0px ;
+                width: 65px ;
+                margin: 2px ;
+            }
+                img#Icone_Menu_Clicavel:hover {
+                    transition: 0.7s ;
+                    width: 78px ;
+                }
