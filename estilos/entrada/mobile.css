@@ -68,7 +68,7 @@ body {
                 width: 170px ;
                 height: 180px ;
                 text-align: center ;
-                background-color: antiquewhite;
+                background-color: rgb(255, 255, 255);
             }
                 a {
                     display: block ;
@@ -76,7 +76,7 @@ body {
                     margin: 10px ;
                     padding: 10px ;
                     font-family: 'Fonte5'; /*Para letras, a melhor fonte é a "FONTE5"*/
-                    font-size: 20px ;
+                    font-size: 18   px ;
                     text-decoration: none ;
                     color: black ;
                     background-color: aqua ;

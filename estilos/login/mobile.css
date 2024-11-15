@@ -55,12 +55,13 @@ body {
         flex-flow: row nowrap ;
         justify-content: center ;
         align-items: center ;
-        height: 65vh ; /*dar uma arrumada pq tá mttt grande*/
+        height: 60vh ; 
         background-color: rgb(255, 255, 255) ;
     }
         section {
-            display: block ; /*está vazando do main*/
+            display: block ; 
             width: 200px ;
+            height: 385px ;
             text-align: center ;
             background-color: rgba(0, 0, 0, 0) ;
         }
@@ -69,7 +70,7 @@ body {
             }
             form {
                 width: 200px ;
-                height: 230px;
+
             }
                 #iEmail_Tel {
                     width: 100% ;
@@ -129,8 +130,12 @@ body {
 
 
     footer {
+        position: fixed ;
+        bottom: 0px ;
+        width: 100vw ;
+        height: 147px  ; 
         background-color: white ;
-        height: 15vh ; /*diminuir, pq está muito bugado*/
+
     }
         div#conteiner {
             display: flex ;
@@ -142,5 +147,5 @@ body {
                 padding: 12px 10px  ;
                 writing-mode: vertical-lr ;
                 font-family: 'Fonte4';
-                font-size: 3vh ; /*deixar em px, para não bugar */
+                font-size: 22px ;
             }
