@@ -20,9 +20,9 @@
 
 
 * {
+    box-sizing: border-box;
     padding: 0px ;
     margin: 0px ;
-    box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
@@ -36,10 +36,8 @@ body {
         position: fixed ;
         bottom: 0px ;
         width: 100vw ;
-        height: 250px ; /*height: 110px ;*/
+        height: 320px ; /*height: 250px ;*/
     }
-
-
 
         section#Icone_Login {
             display: inline-block ;
@@ -57,31 +55,39 @@ body {
             }
 
         section#Menu {
-            display: flex ;
+            display: none ;
             flex-flow: column nowrap ;
             justify-content: flex-end ;
             align-items: flex-end ;
-            background-color: rgb(255, 132, 0) ;
-            height: 180px ;
+            height: 250px ;
         }
             nav {
-                width: 170px ;
-                height: 180px ;
+                width: 190px ;
+                height: 250px ;
                 text-align: center ;
+                background: linear-gradient(to top, white, black ) ;
                 background-color: rgb(255, 255, 255);
+
+                border-radius: 10px 0px 0px 10px ;
             }
+                h2 {
+                    padding: 8px ;
+                    font-family: 'Fonte5' ;
+                    font-size: 25px ;
+                    background-color: white ;
+                    border-radius: 9px 0px 0px 0px ;
+                }
                 a {
                     display: block ;
-
-                    margin: 10px ;
-                    padding: 10px ;
-                    font-family: 'Fonte5'; /*Para letras, a melhor fonte é a "FONTE5"*/
-                    font-size: 18   px ;
+                    padding: 12px ;
+                    margin: 9px ;
+                    font-family: 'Fonte5'; 
+                    font-size: 16px ;
                     text-decoration: none ;
-                    color: black ;
-                    background-color: aqua ;
-                    border: 2px solid black ;
+                    border: 1px solid black ;
                     border-radius: 10px ;
+                    color: black ;
+                    background-color: lightgray ;
                 }
         
         section#Icone_Menu {
@@ -98,7 +104,3 @@ body {
                 width: 65px ;
                 margin: 2px ;
             }
-                img#Icone_Menu_Clicavel:hover {
-                    transition: 0.7s ;
-                    width: 78px ;
-                }
