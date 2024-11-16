@@ -55,21 +55,22 @@ body {
         flex-flow: row nowrap ;
         justify-content: center ;
         align-items: center ;
-        height: 65vh ;
+        height: 60vh ;
         background-color: rgb(255, 255, 255) ;
     }
         section {
             display: block ;
             width: 300px ;
+            height: 450px ; /**/
             text-align: center ;
             background-color: rgba(0, 0, 0, 0) ;
         }
-            img {
+            img { 
                 width: 215px ;
             }
             form {
                 width: 300px ; 
-                height: 300px;
+
             }
                 #iEmail_Tel {
                     width: 100% ;
