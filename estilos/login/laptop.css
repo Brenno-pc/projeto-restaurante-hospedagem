@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'Fonte2' ;
     src: url(../../fontes/seibi-shiba/OTF/Seibi\ Shiba\ Bold.otf) format(OpenType);
-} 
+}
 @font-face {
     font-family: 'Fonte3' ;
     src: url(../../fontes/seibi-shirogane/OTF/Seibi\ Shirogane.otf) format(OpenType);
@@ -32,113 +32,129 @@ body {
     width: 100vw ;
     height: 100vh ;
 }
+
+    /*header e tudo dentro dele está ok*/
     header {
         display: flex ;
         flex-flow: row nowrap ;
         justify-content: flex-end ;
         align-items: center ;
-        height: 13vh ; 
-        background-color: white ;
+        height: 15% ;  /*height: 80px ;*/
+        background-color: rgb(32, 158, 255) ;
     }
         header h1 {
             writing-mode: horizontal-tb;
             padding: 5px ;
             margin: 5px ;
             font-family: 'Fonte4' ;
-            font-size: 35.5px ; 
+            font-size: 36px ; /*sujeito a alterações*/
             font-style: italic ;
             font-weight: 600 ;
         }
 
+
+    /*main precisa arrumar os links hover*/
     main {
-        display: flex ;
-        flex-flow: row nowrap ;
-        justify-content: center ;
-        align-items: center ;
-        height: 65vh ;
-        background-color: rgb(255, 255, 255) ;
+        height: 65% ;
+        background-color: rgb(255, 125, 125) ;
     }
         section {
-            display: block ;
-            width: 310px ; 
-            text-align: center ;
-            background-color: rgba(0, 0, 0, 0) ;
-        }
-            img {
-                width: 225px ; 
-            }
-            form {
-                width: 300px ;
-                height: 277px;
-            }
-                #iEmail_Tel {
-                    width: 100% ;
-                    margin: 3px 0px ;
-                    padding: 14px ; 
-                    text-align: center ;
-                    font-size: 15px ;
-                    background-color: black ;
-                    color: white ;
-                    border-radius: 12px;
-                }
-                #iSenha {
-                    width: 100% ;
-                    margin: 3px 0px ;
-                    padding: 14px ; 
-                    text-align: center ;
-                    font-size: 15px ; 
-                    background-color: black ;
-                    color: white ;
-                    border-radius: 12px;
-                }
-                #iEntrar {
-                    width: 100% ;
-                    margin: 3px 0px ;
-                    padding: 14px ; 
-                    text-align: center ;
-                    font-size: 15px ; 
-                    background-color: black ;
-                    color: white ;
-                    border-radius: 12px;
-                }
-                    #iEntrar:hover {
-                        width: 72% ;
-                        padding: 9px ; 
-                        transition: 0.8s ;
-                        font-size: 13px ;
-                    }
+            display: flex ;
+            flex-flow: row nowrap ;
+            justify-content: center ;
+            align-items: center ;
+            height: 100% ;
 
-                a#EsqueceuSenha {
-                    display: block ;
-                    margin-top: 2px ;
-                    font-size: 14.5px ;
-                    text-decoration: none ;
-                    color: black ;
+        }
+            form {
+                width: 40% ;
+                height: 70% ;
+                margin: auto ;
+                padding: 10px ;
+                background-color: red ;
+                border-radius: 10px ;
+            }
+                h2 {
+                    padding: 4px ;
+                    font-family: '#' ;
+                    font-size: 26px ;
+                    text-align: justify;
                 }
-                a#ContinuarSemLogin {
-                    display: block ;
-                    margin-top: 16px ;
-                    font-size: 16px  ;
-                    color: black ;
-                }
-                    #ContinuarSemLogin:hover {
-                        color: rgb(44, 44, 205) ;
+
+                fieldset {
+                    display: flex ;
+                    flex-flow: column nowrap ;
+                    border: none ;
+                }              
+                    #iEmail_Tel {
+                        width: 85% ;
+                        height: 45px ;
+                        margin: 27px auto 2.5px ;
+                        padding: 10px ;
+                        font-family: 'Fonte5';
+                        font-size: 14px ;
+                        text-align: center ;
+                        border: none ;
+                        border-radius: 6px;
+                        background-color: black ;
+                        color: white ;
+                    }
+                    #iSenha {
+                        width: 85% ;
+                        height: 45px ;
+                        margin: 3px auto ;
+                        padding: 10px ;
+                        font-family: 'Fonte5' ;
+                        font-size: 14px ;
+                        text-align: center ;
+                        border: none ;
+                        border-radius: 6px;
+                        background-color: black ;
+                        color: white ;
+                    }
+                    #iEntrar {
+                        width: 85% ;
+                        height: 45px ;
+                        margin: 3px auto ;
+                        padding: 10px ;
+                        font-family: 'Fonte5' ;
+                        font-size: 14px ;
+                        text-align: center ;
+                        border: none ;
+                        border-radius: 6px;
+                        background-color: black ;
+                        color: white ;
+                    }
+                       /*entrar:hover*/
+                    
+                    a#ContinuarSemLogin {
+                        display: block ;
+                        margin-top: 12px ;
+                        font-style: italic ;
+                        font-size: 15px ;
                         text-decoration: none ;
+                        text-align: center ;
+                        color: darkblue ;
+                    }
+                    hr {
+                        margin-top: 10px ;
                     }
 
     footer {
-        background-color: white ;
-        height: 15vh ; 
+        width: 100% ;
+        height: 20%;
+        background-color: aqua ;
     }
         div#conteiner {
             display: flex ;
             flex-flow: row nowrap ;
-            justify-content: flex-start  ;
-            align-items: flex-start ;
+            justify-content: flex-start ;
+            align-items: center ;
+            height: 100% ;
         }
-            #conteiner h1 {
-                padding: 12px 10px  ;
+            footer h1 {
                 writing-mode: vertical-lr ;
-                font-family: 'Fonte4';
-                font-size: 3.8vh ; 
+                font-family: 'Fonte1' ;
+                font-size: 26px ;
+                font-weight: 600 ;
             }
