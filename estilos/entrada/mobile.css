@@ -51,11 +51,6 @@ body {
             }
     
 
-
-
-
-
-
     footer {
         display: block ;
         position: fixed ;
@@ -70,7 +65,7 @@ body {
             bottom: 0px ;
             left: 0px ;
         }
-            img#Icone_Login_Clicavel {
+            a img#Icone_Login_Clicavel {
                 display: inline-block ;
                 position: fixed ;
                 bottom: 0px ;
