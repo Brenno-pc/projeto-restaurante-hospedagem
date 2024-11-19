@@ -30,43 +30,104 @@
 body {
     width: 100vw ;
     height: 100vh ;
-    background-color: rgb(108, 108, 108) ;
+    background-color: gray ;
 }
     header {
-        width: 100% ;
-        height: 200px ;
-        background-color: aqua ;
-    }   
-    section#Menu {
-        width: 100%;
-
+        display: none ; /*fazer ele ficar oculto e aparecer com o JS*/
+        width: 100vw ;
+        height: 180px ;
     }
-        nav {
-
+        section#Menu { 
+            display: block ;
+            width: 100% ;
             height: 100% ;
+            margin: auto ;
             background-color: white ;
         }
             h2 {
-
+                width: 100% ;
+                padding: 10px ;
+                font-family: 'Fonte4' ;
+                font-size: 27px ;
+                text-align: center ;
             }
-            a {
-
+            nav {
+                display: flex ;
+                flex-flow: column nowrap ;
+                justify-content: center ;
+                align-items: center ;
+                height: 71% ;
+                margin: 1px auto 0px  ;
             }
-    
+                a.menu-link {
+                    display: block ;
+                    width: 100% ;
+                    padding: 10px ;
+                    text-align: center ;
+                    text-decoration: none ;
+                    border: 1px solid black ;
+                    color: white ;
+                    background-color: lightgray ;
+                }
+
+
+    main {
+        width: 100vw ;
+        height: 100% ;
+    }
+
+        section#sessao-1 {
+            display: flex ;
+            flex-flow: row wrap ;
+            justify-content: center ;
+            align-items: center ;
+            background-color: red ;
+            height: 100% ;
+        }
+            div.div-sessao-1 {
+                display: block ;
+                width: 300px ;
+                height: 200px ;
+                background-color: white ;
+            }
+                img.img-sessao-1 {
+                    width: 300px ;
+                    height: 200px ;
+                
+                }
+
+                /*        section#sessao-2 {
+            background-color: aqua ;
+            padding: 50px ;
+            height: 100% ;
+        }
+            div.div-sessao-2 {
+                width: 100px ;
+            }
+
+        section#sessao-3 {
+            background-color: purple ;
+            padding: 50px ;
+            height: 100% ;
+        }
+            div.div-sessao-3 {
+                width: 100px ;
+            }
+*/
+
 
     footer {
-        display: block ;
+        display: block ; /*deixar ele oculto e aparecendo com js*/
         position: fixed ;
         bottom: 0px ;
         width: 100vw ;
-        height: 320px ; /*height: 250px ;*/
+        height: 75px ;
+        background-color: white ;
     }
-
-        section#Icone_Login {
-            display: inline-block ;
+        section#Icones {
+            display: block ;
             position: fixed ;
             bottom: 0px ;
-            left: 0px ;
         }
             a img#Icone_Login_Clicavel {
                 display: inline-block ;
@@ -77,13 +138,6 @@ body {
                 margin: 5px ;
             }
 
-        
-        section#Icone_Menu {
-            display: inline-block ;
-            position: fixed ;
-            bottom: 0px ;
-            right: 0px ;
-        }
             img#Icone_Menu_Clicavel {
                 display: inline-block ;
                 position: fixed ;
@@ -92,3 +146,4 @@ body {
                 width: 63px ;
                 margin: 2px ;
             }
+
