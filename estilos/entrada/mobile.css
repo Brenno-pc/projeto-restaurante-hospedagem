@@ -34,9 +34,9 @@ body {
     background-color: gray ;
 }
     header {
+        display: none ; /*fazer ele ficar oculto e aparecer com o JS*/
         position: fixed ;
-        top: 0px ;
-        display: block ; /*fazer ele ficar oculto e aparecer com o JS*/
+        top: 0px ; 
         width: 100vw ;
         height: 180px ;
     }
@@ -101,8 +101,9 @@ body {
                     background-color: green ;
                 }
                     h1 {
-                        text-align: center ;
+                        font-family: 'Fonte4' ;
                         padding: 6px;
+                        text-align: center ;
                     }
 
                 div.main {
@@ -119,7 +120,7 @@ body {
 
 
     footer {
-        display: block ; /*deixar ele oculto e aparecendo com js*/
+        display: none ; /*deixar ele oculto e aparecendo com js*/
         position: fixed ;
         bottom: 0px ;
         width: 100vw ;
