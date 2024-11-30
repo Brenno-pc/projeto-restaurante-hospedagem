@@ -1,0 +1,201 @@
+css : 
+
+
+body {
+    background-color: rgb(255, 255, 255) ;
+    width: 100vw ;
+    height: 100vh ;
+}
+
+    /*header e tudo dentro dele está ok*/
+    header {
+        display: flex ;
+        flex-flow: row nowrap ;
+        justify-content: flex-end ;
+        align-items: center ;
+        height: 15% ;  /*height: 80px ;*/
+        background-color: rgb(32, 158, 255) ;
+    }
+        header h1 {
+            writing-mode: horizontal-tb;
+            padding: 5px ;
+            margin: 5px ;
+            font-family: 'Fonte4' ;
+            font-size: 33px ; /*sujeito a alterações*/
+            font-style: italic ;
+            font-weight: 600 ;
+        }
+
+
+    /*main precisa arrumar os links hover*/
+    main {
+        height: 65% ;
+        background-color: rgb(255, 125, 125) ;
+    }
+        section {
+            display: flex ;
+            flex-flow: row nowrap ;
+            justify-content: center ;
+            align-items: center ;
+            height: 100% ;
+
+        }
+            form {
+                width: 70% ;
+                height: 70% ;
+                margin: auto ;
+                padding: 10px ;
+                background-color: red ;
+                border-radius: 10px ;
+            }
+                h2 {
+                    padding: 4px ;
+                    font-family: '#' ;
+                    font-size: 24px ;
+                    text-align: justify;
+                }
+
+                fieldset {
+                    display: flex ;
+                    flex-flow: column nowrap ;
+                    border: none ;
+                }              
+                    #iEmail_Tel {
+                        width: 85% ;
+                        height: 42px ;
+                        margin: 25px auto 3px ;
+                        padding: 10px ;
+                        font-family: 'Fonte5';
+                        font-size: 14px ;
+                        text-align: center ;
+                        border: none ;
+                        border-radius: 6px;
+                        background-color: black ;
+                        color: white ;
+                    }
+                    #iSenha {
+                        width: 85% ;
+                        height: 42px ;
+                        margin: 3px auto ;
+                        padding: 10px ;
+                        font-family: 'Fonte5' ;
+                        font-size: 14px ;
+                        text-align: center ;
+                        border: none ;
+                        border-radius: 6px;
+                        background-color: black ;
+                        color: white ;
+                    }
+                    #iEntrar {
+                        width: 85% ;
+                        height: 42px ;
+                        margin: 3px auto ;
+                        padding: 10px ;
+                        font-family: 'Fonte5' ;
+                        font-size: 14px ;
+                        text-align: center ;
+                        border: none ;
+                        border-radius: 6px;
+                        background-color: black ;
+                        color: white ;
+                    }
+                       /*entrar:hover*/
+                    
+                    a#ContinuarSemLogin {
+                        display: block ;
+                        margin-top: 12px ;
+                        font-style: italic ;
+                        font-size: 15px ;
+                        text-decoration: none ;
+                        text-align: center ;
+                        color: darkblue ;
+                    }
+                    hr {
+                        margin-top: 9px ;
+                    }
+
+    footer {
+        width: 100% ;
+        height: 20%;
+        background-color: aqua ;
+    }
+        div#conteiner {
+            display: flex ;
+            flex-flow: row nowrap ;
+            justify-content: flex-start ;
+            align-items: center ;
+            height: 100% ;
+        }
+            footer h1 {
+                writing-mode: vertical-lr ;
+                font-family: 'Fonte1' ;
+                font-size: 24px ;
+                font-weight: 600 ;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html : 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/FAVICON-ZENBITO.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilos/login/mobile.css" media="screen and (max-width: 640px)">
+    <link rel="stylesheet" href="estilos/login/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="estilos/login/laptop.css" media="screen and (min-width: 1025px) and (max-width: 1280px)">
+    <link rel="stylesheet" href="estilos/login/desktop.css" media="screen and (min-width: 1281px) and (max-width: 1920px)">
+    <link rel="stylesheet" href="estilos/login/tv.css" media="screen and (min-width: 1921px)">
+
+    <title>Login</title>
+</head> <!--PRECISA ARRUMAR A ORIENTAÇÃO PAISAGEM NESSA MERDA-->
+<body>
+    <header>
+        <h1>禅ビート</h1>
+    </header> 
+
+    <main>
+        <section> 
+            <form action="" method="post" autocomplete="off">
+                <h2>Login</h2>
+                <fieldset >
+                    <input type="text" name="Email_Tel" id="iEmail_Tel" placeholder="Email ou Telefone" required> 
+                    <input type="password" name="Senha" id="iSenha" placeholder="Senha" required minlength="5" maxlength="12"> 
+                    <input type="submit" value="Entrar" id="iEntrar">
+                    <a href="htmls/entrada/entrada.html" id="ContinuarSemLogin">Continuar sem login</a> <br>
+                    <hr> 
+                    <hr>
+                </fieldset> 
+            </form>
+        </section>  
+    </main>
+    <footer>
+        <div id="conteiner">
+            <h1>禅ビート</h1>
+        </div>
+    </footer>
+    <script src="javascript/botao_entrar.js"></script>
+</body>
+</html>
