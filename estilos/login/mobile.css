@@ -60,3 +60,71 @@ body {
         height: 100vh ;
         background-color: white ;
     }
+        section#sessao_1 {
+            width: 100% ;
+            height: 30%  ;
+            background-color: yellowgreen ;
+        }
+
+            div#conteiner_sessao_1 {
+                display: flex ;
+                flex-flow: row nowrap ;
+                justify-content: center ;
+                align-items: center ;
+                height: 89% ;
+                background-color: violet;
+            }   
+                #sessao_1 h2 {
+                    width: 70% ;
+                    padding: 18px ;
+                    font-family: 'Fonte3' ;
+                    letter-spacing: 6px ;
+                    text-align: center ;
+                    
+                    background-color: brown ;
+                    border: 1px solid black ;
+                    border-radius: 3px ;
+                }
+            
+            span.linhas {
+                display: block ;
+                width: 100% ;
+                height: 3px ;
+                margin-bottom: 10px ;
+                background-color: aqua;
+            }
+                
+                
+
+
+
+
+
+        section#sessao_2 {
+            display: flex ;
+            flex-flow: column nowrap ;
+            justify-content: center ;
+            align-items: center ;
+
+            height: 70% ;
+            background-color: purple ;
+        }
+            div#conteiner_sessao_2 {
+                width: 90% ;
+                height: 85% ;
+                margin: 10px ;
+                padding: 10px ;
+                background-color: black ;
+            }
+                div.filho1_sessao_2 {
+                    background-color: aqua ;
+
+                }
+                div.filho2_sessao_2 {
+                    background-color: red ;
+                    
+                }
+                div.filho3_sessao_2 {
+                    background-color: cadetblue ;
+            
+                }
