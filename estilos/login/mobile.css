@@ -18,6 +18,14 @@
     src: url(../../fontes/Seibi_Socho/Seibi_Socho/OTF/Seibi\ Socho.otf) format(OpenType);
 }
 
+:root {
+    --cor1 : ;
+    --cor2 : ;
+    --cor3 : ;
+    --cor4 : ;
+    --cor5 : ;
+}
+
 
 * {
     padding: 0px ;
