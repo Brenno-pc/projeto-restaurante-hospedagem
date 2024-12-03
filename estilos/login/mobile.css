@@ -126,7 +126,24 @@ body {
                 background-color: black ;
                 border-radius: 3px ;
             }
+
                 div.filho1_sessao_2 {
+                    display: flex ;
+                    flex-flow: row nowrap ;
+                    justify-content: flex-end ;
+                    background-color: red ;
+                    height: 100% ;
+                }
+                    a {
+                        display: block ;
+                        width: 15% ;
+                        writing-mode: vertical-lr ;
+                        
+                        text-transform: uppercase ;
+                        background-color: green ;
+                    }
+            /*
+                            div.filho2_sessao_2 {
                     display: flex ;
                     flex-flow: row nowrap ;
                     justify-content: center ;
@@ -140,9 +157,9 @@ body {
                         background-color: aliceblue;
                     }
 
-                div.filho2_sessao_2 {
+                div.filho3_sessao_2 {
                     width: 88% ;
-                    height: 87% ;
+                    height: 87% ; 
                     background-color: red ;
                 }
                     form {
@@ -175,7 +192,4 @@ body {
                             border-radius: 0px 8px 8px 0px;
                         }
 
-                div.filho3_sessao_2 {
-                    background-color: cadetblue ;
-            
-                }
+            */
