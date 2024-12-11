@@ -143,7 +143,7 @@ body {
                 div.filho2_sessao_2 { /*pra deixar ele na vertical igual eu quero, precisa saber grid layout*/ /*experimentrar colocar o align-self, para deixar na vertical msm*/
                     width: 14% ;
                     height: 100% ;
-                    background-color: yellow ;
+                    background-color: yellow    ;
                 }          
                     a {
                         display: block ;
